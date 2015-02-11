@@ -14,11 +14,6 @@
 \usepackage{sidecap}
 \usepackage{amssymb}
 \usepackage[xetex]{graphicx}
-\usepackage{fontspec,xunicode}
-\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-\setmainfont{Calluna}
-\setsansfont[Scale=1.05]{Source Sans Pro}
-\setmonofont{Source Code Pro}
 \usepackage{xltxtra}
 
 \usepackage{colortbl}
@@ -27,16 +22,11 @@
 \usepackage{xcolor}
 \usepackage{caption}
 \usepackage[onehalfspacing]{setspace}
-
-%\usepackage[scale=0.75]{geometry} % Um die Titelseite zu zentrieren
 \usepackage[english]{babel}
-%\usepackage[babel,english]{csquotes}
 
 <% if(bibtex) { %>
 \usepackage[sorting=nyt,style=authoryear]{biblatex}
-%\bibliographystyle{agsm}
 \bibliography{references}
-%\let\cite\autocite
 <% } %>
 
 % Footnotes

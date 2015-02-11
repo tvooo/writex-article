@@ -4,6 +4,6 @@ bibtex: false
 engine: xelatex
 document:
   author: Arthur Authory
-  date: \\today
+  date: \today
   title: A splendid article
   subtitle: How to write a headline that means absolutely nothing

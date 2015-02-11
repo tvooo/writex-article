@@ -10,7 +10,8 @@
   "keywords": [
     "writex",
     "writex-template",
-    "latex"
+    "latex",
+    "markdown"
   ],
   "author": "Tim von Oldenburg <tim@tvooo.de>",
   "license": "MIT",
